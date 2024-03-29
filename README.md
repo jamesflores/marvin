@@ -249,6 +249,12 @@ marvin.beta.classify(
 # "drink"
 ```
 
+```python
+marvin.beta.caption("https://github.com/PrefectHQ/marvin/raw/main/docs/assets/images/docs/images/coffee.png")
+
+# "A steaming cup of coffee or tea sits on a wooden table, illuminated by warm, natural light with a soft focus background."
+``` 
+
 ## Record the user, modify the content, and play it back
 
 Marvin can transcribe speech and generate audio out-of-the-box, but the optional `audio` extra provides utilities for recording and playing audio.
